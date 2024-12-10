@@ -10,7 +10,7 @@ const Navbar = () => {
         'Jobs'
     ]
     return (
-        <div className="navbar shadow-lg shadow-red-600 text-white hover:shadow-red-800">
+        <div className="navbar shadow-lg shadow-red-600 text-white hover:shadow-red-800 px-10">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +45,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn btn-sm bg-red-700 rounded-full hover:bg-red-600 px-5 text-white">Start A Project</a>
   </div>
 </div>
     );
