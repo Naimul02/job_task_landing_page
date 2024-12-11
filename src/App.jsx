@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <div className="m-0 p-0 bg-[#b3261e] h-screen">
+    <div className="m-0 p-0 bg-[#6d130e]">
         <Home></Home>
     </div>
   )
