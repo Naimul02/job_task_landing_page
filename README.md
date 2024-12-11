@@ -56,3 +56,7 @@ To set up the development environment.
    
 5. #### npm:
 For managing project dependencies.
+
+### The problem I faced while working
+
+I had to face a problem while doing this project.  First of all, the configuration of my laptop is very low due to which it works very slow.  As a result, it takes a lot of time to install something, which has wasted a lot of my time.  I have tried to work as per your requirement but if you think it could be improved more then let me know I will try to improve more.  Thank you very much for reading the message in your busy schedule.
