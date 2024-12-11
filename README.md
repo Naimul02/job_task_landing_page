@@ -7,21 +7,21 @@
 #### 1. Clone the Repository
 Open a terminal and run the following command to clone the repository:
 
-`git clone https://github.com/Naimul02/job_task_landing_page.git`
+```git clone https://github.com/Naimul02/job_task_landing_page.git```
 #### 2. Navigate to the Project Directory
 Go to the folder where the project is cloned:
 
-`cd job_task_landing_page`
+```cd job_task_landing_page```
 
 #### 3.Install Dependencies
 Run the following command to install all required packages:
 
-`npm install`
+```npm install```
 
 #### 4. Start the Development Server
 Once dependencies are installed, start the project with:
 
-`npm run dev`
+```npm run dev```
 
 #### 5. Open in Browser
 After running the development server, you can access the project in your browser. It will usually run at:
