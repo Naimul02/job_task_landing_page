@@ -6,7 +6,8 @@ function App() {
   
 
   return (
-    <div className="m-0 p-0 bg-[#300907]">
+    // bg-[#300907]
+    <div className="m-0 p-0" id="bgColor">
         <Home></Home>
     </div>
   )

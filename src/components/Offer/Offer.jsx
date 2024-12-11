@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { MdDeveloperBoard } from 'react-icons/md';
 import { RiVerifiedBadgeLine } from 'react-icons/ri';
 import './Offer.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Offer = () => {
+    useEffect(() => {
+        Aos.init({duration : 1000})
+    } , [])
 
     const datas = [
         {
@@ -46,7 +51,7 @@ const Offer = () => {
     ]
     
     return (
-        <div className='py-16 container mx-auto'>
+        <div className='py-16 container mx-auto'data-aos="fade-up">
             
             <div className="text-center space-y-2 text-white">
                 <h1 className="text-3xl font-bold">What we offer</h1>
@@ -55,7 +60,7 @@ const Offer = () => {
             </div>
 
             {/* card */}
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8  mt-16">
+            <div className="grid grid-cols-1 mx-4 lg:mx-0 md:grid-cols-2 lg:grid-cols-4 gap-8  mt-16">
                 {
                     datas?.map(data =>  <div className="cardOffer h-[350px]">
                         <div className='flex px-2 gap-2 items-center  mt-6'>

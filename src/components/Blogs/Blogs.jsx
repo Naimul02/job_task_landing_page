@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { MdArrowOutward } from 'react-icons/md';
 import { RiVerifiedBadgeLine } from 'react-icons/ri';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 const Blogs = () => {
+    useEffect(() => {
+        Aos.init({duration : 1000})
+    } , [])
     return (
-        <div className='py-16 container mx-auto'>
+        <div className='py-16 container mx-auto'data-aos="fade-up">
             <div className='text-center text-white'>
                 <h1 className="text-lg font-semibold">Read Our Blog</h1>
                 <h2 className='text-3xl font-semibold mt-2'>Read Daily news about <br />
                 startup companies</h2>
             </div>
 
-            <div className='border flex gap-6 p-10 rounded-xl mt-10'>
+            <div className='border flex flex-col lg:flex-row mx-4 lg:mx-0 gap-6 p-6 lg:p-10 rounded-xl mt-10'>
                 <div>
                     <img src="https://consumotic.mx/wp-content/uploads/2021/03/210304_hombre-frustrado-computadora.png" className='rounded-xl' alt="" />
                 </div>
@@ -25,7 +29,7 @@ const Blogs = () => {
 
 
 
-                    <div className="items-center flex justify-between">
+                    <div className="items-center flex justify-between mt-5 lg:mt-0">
                 <div>
                 <div className="flex items-center gap-2">
                         <RiVerifiedBadgeLine/>

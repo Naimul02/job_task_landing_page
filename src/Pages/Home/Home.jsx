@@ -21,10 +21,7 @@ const Home = () => {
             <Contact></Contact>
             <Newsletter></Newsletter>
             <Footer></Footer>
-
-    
-            
-        </div>
+</div>
     );
 };
 
