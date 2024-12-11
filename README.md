@@ -27,3 +27,16 @@ Once dependencies are installed, start the project with:
 After running the development server, you can access the project in your browser. It will usually run at:
 
 http://localhost:5173
+
+#### Technologies Used
+1.React.js: A JavaScript library for building user interfaces.
+2.Tailwind CSS: A utility-first CSS framework for designing responsive layouts.
+3.DaisyUI: A Tailwind CSS plugin for creating customizable UI components.
+4.CSS3: For styling the layouts and components.
+
+#### Tools Used
+Git: For version control and project management.
+GitHub: For code hosting and collaboration.
+VS Code: As the code editor for development.
+Node.js: To set up the development environment.
+npm: For managing project dependencies.
