@@ -1,4 +1,4 @@
-.card{
+.cardOffer{
     background: linear-gradient(145deg , #590000, #8B0000 );
     color  : white;
     border-radius: 15px;
@@ -10,7 +10,7 @@
     overflow: hidden;
 
 }
-.card::before{
+.cardOffer::before{
     content: "01";
     font-weight: 700;
     position: absolute;

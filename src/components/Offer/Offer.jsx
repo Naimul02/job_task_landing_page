@@ -57,7 +57,7 @@ const Offer = () => {
             {/* card */}
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8  mt-16">
                 {
-                    datas?.map(data =>  <div className="card h-[350px]">
+                    datas?.map(data =>  <div className="cardOffer h-[350px]">
                         <div className='flex px-2 gap-2 items-center  mt-6'>
                         <span><MdDeveloperBoard className='z-10 text-3xl font-bold text-white'/></span>
                         <h3 className="text-3xl font-semibold text-white z-10">{data?.title}</h3>
