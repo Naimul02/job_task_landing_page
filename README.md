@@ -7,7 +7,7 @@
 #### 1. Clone the Repository
 Open a terminal and run the following command to clone the repository:
 
-git clone https://github.com/Naimul02/job_task_landing_page.git
+```git clone https://github.com/Naimul02/job_task_landing_page.git
 #### 2. Navigate to the Project Directory
 Go to the folder where the project is cloned:
 
