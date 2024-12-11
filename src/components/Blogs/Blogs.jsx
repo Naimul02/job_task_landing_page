@@ -51,8 +51,8 @@ const Blogs = () => {
             </div>
 
             {/* btn */}
-            <div>
-            <button className='btn btn-outline text-center text-white'>Read More</button>
+            <div className="flex justify-center mt-5">
+            <button className='btn btn-outline hover:bg-[#300907] text-white px-10'>Read More</button>
             </div>
         </div>
     );

@@ -6,7 +6,7 @@ function App() {
   
 
   return (
-    <div className="m-0 p-0 bg-[#6d130e]">
+    <div className="m-0 p-0 bg-[#300907]">
         <Home></Home>
     </div>
   )
