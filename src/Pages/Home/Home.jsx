@@ -6,6 +6,7 @@ import Offer from '../../components/Offer/Offer';
 import SuperPowers from '../../components/SuperPowers/SuperPowers';
 import Blogs from '../../components/Blogs/Blogs';
 import Contact from '../../components/Contact/Contact';
+import Newsletter from '../../components/Newsletter/Newsletter';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <SuperPowers></SuperPowers>
             <Blogs></Blogs>
             <Contact></Contact>
+            <Newsletter></Newsletter>
 
     
             

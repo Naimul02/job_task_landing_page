@@ -14,10 +14,22 @@ const Contact = () => {
                   <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" />Learn which plan is right
                   for your team</li>
                   <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" /> Get onboarding help</li>
+                  <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" /> Cyber Audit</li>
+                  <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" /> Cyber governance</li>
+                  <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" /> Security as a service</li>
+                  <li className="flex gap-2 text-left  items-center text-white"><RiVerifiedBadgeLine className="text-white text-lg font-semibold" /> Penetration Testin</li>
+
+
+                  
+             
+             
+             
                 
                         </ul>
                         <h3 className="text-lg font-bold text-white">Technical support or some query?
                         Contact support</h3>
+
+
           </div>
           <div className="border rounded-lg w-full max-w-lg shrink-0 shadow-2xl">
             <form className="card-body">
