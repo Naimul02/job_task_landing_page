@@ -7,6 +7,7 @@ import SuperPowers from '../../components/SuperPowers/SuperPowers';
 import Blogs from '../../components/Blogs/Blogs';
 import Contact from '../../components/Contact/Contact';
 import Newsletter from '../../components/Newsletter/Newsletter';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Blogs></Blogs>
             <Contact></Contact>
             <Newsletter></Newsletter>
+            <Footer></Footer>
 
     
             
