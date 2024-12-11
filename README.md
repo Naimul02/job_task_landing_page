@@ -1,8 +1,36 @@
-# React + Vite
+How to Set Up and Run the Project Locally
+Prerequisites
+Node.js: Install Node.js (v16+ recommended).
+Git: Install Git.
+A code editor like VS Code (optional but recommended).
+Steps to Set Up
+Clone the Repository
+Open a terminal and run the following command to clone the repository:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+bash
+Copy code
+git clone https://github.com/Naimul02/job_task_landing_page.git
+Navigate to the Project Directory
+Go to the folder where the project is cloned:
 
-Currently, two official plugins are available:
+bash
+Copy code
+cd job_task_landing_page
+Install Dependencies
+Run the following command to install all required packages:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+npm install
+Start the Development Server
+Once dependencies are installed, start the project with:
+
+bash
+Copy code
+npm run dev
+Open in Browser
+After running the development server, you can access the project in your browser. It will usually run at:
+
+arduino
+Copy code
+http://localhost:5173
