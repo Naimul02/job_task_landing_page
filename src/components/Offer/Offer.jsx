@@ -55,7 +55,7 @@ const Offer = () => {
             </div>
 
             {/* card */}
-            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8  mt-10">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-8  mt-16">
                 {
                     datas?.map(data =>  <div className="card h-[350px]">
                         <div className='flex px-2 gap-2 items-center  mt-6'>

@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Banner from '../../components/Banner/Banner';
 import Company from '../../components/Company/Company';
 import Offer from '../../components/Offer/Offer';
+import SuperPowers from '../../components/SuperPowers/SuperPowers';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <Company></Company>
             <Offer></Offer>
+            <SuperPowers></SuperPowers>
     
             
         </div>
