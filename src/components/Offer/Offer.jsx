@@ -51,7 +51,7 @@ const Offer = () => {
     ]
     
     return (
-        <div className='py-16 container mx-auto'data-aos="fade-up">
+        <div className='py-16 container mx-auto scroll-smooth'data-aos="fade-up"id="services">
             
             <div className="text-center space-y-2 text-white">
                 <h1 className="text-3xl font-bold">What we offer</h1>

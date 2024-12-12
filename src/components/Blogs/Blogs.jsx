@@ -8,7 +8,7 @@ const Blogs = () => {
         Aos.init({duration : 1000})
     } , [])
     return (
-        <div className='py-16 container mx-auto'data-aos="fade-up">
+        <div className='py-16 container mx-auto'data-aos="fade-up"id="blogs">
             <div className='text-center text-white'>
                 <h1 className="text-lg font-semibold">Read Our Blog</h1>
                 <h2 className='text-3xl font-semibold mt-2'>Read Daily news about <br />

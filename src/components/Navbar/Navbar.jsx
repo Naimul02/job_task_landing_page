@@ -31,12 +31,12 @@ const Navbar = () => {
 
     const listItems = [
         'Services',
-        'Reviews',
+        'Banner',
         'Blogs',
-        'Jobs'
+        'Contact'
     ]
     return (
-        <div className="navbar shadow-lg shadow-red-600 text-white hover:shadow-red-800 px-2 lg:px-10">
+        <div className="navbar shadow-lg shadow-red-600 text-white hover:shadow-red-800 px-2 lg:px-10 fixed z-30 bg-[#300907]">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -55,9 +55,9 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-200 rounded-md rounded-box text-white  z-[1] mt-3 w-52 p-2 shadow space-y-2">
+        className="menu menu-sm dropdown-content bg-[#1a103d] rounded-md rounded-box text-white  z-[1] mt-3 w-52 p-2 shadow space-y-2">
             {
-                listItems.map(element =>    <li className="border-b rounded-lg"><a>{element}</a ></li>)
+                listItems.map(element =>    <li className="border-b rounded-lg"><a href={`#${element.toLowerCase()}`}>{element}</a ></li>)
             }
       </ul>
     </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
     {
-                listItems.map(element =>   <li><a>{element}</a ></li>)
+                listItems.map(element =>   <li><a href={`#${element.toLowerCase()}`}>{element}</a ></li>)
             }
     </ul>
   </div>

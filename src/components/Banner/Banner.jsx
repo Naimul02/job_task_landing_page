@@ -15,10 +15,10 @@ const Banner = () => {
   }
    , [])
     return (
-      <div data-aos="fade-up">
+      <div data-aos="fade-up"id="banner">
 
 
-        <div className="hero  h-[600px]">
+        <div className="hero  h-[600px] pt-32 md:pt-20">
         <div className="hero-content text-center">
 
             <div className="flex flex-col lg:flex-row gap-16">

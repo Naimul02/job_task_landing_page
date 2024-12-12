@@ -7,7 +7,7 @@ const Contact = () => {
     Aos.init({duration : 1000})
  } , [])
     return (
-        <div className="min-h-screen max-w-6xl py-10 lg:py-16 mx-4 lg:mx-auto"data-aos="fade-up">
+        <div className="min-h-screen max-w-6xl py-10 lg:py-16 mx-4 lg:mx-auto"data-aos="fade-up" id="contact">
         <div className="flex flex-col  md:flex-row md:gap-5  justify-between">
           <div className="text-center lg:text-left space-y-4">
             <h1 className="text-lg text-white font-bold">Got a project in mind?</h1>
