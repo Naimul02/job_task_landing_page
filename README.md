@@ -54,8 +54,8 @@ As the code editor for development.
 4. #### Node.js:
 To set up the development environment.
    
-5. #### npm:
-For managing project dependencies.
+5. #### AOS
+For scroll animation
 
 ### The problem I faced while working
 

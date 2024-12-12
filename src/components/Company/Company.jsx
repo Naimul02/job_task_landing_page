@@ -17,7 +17,7 @@ const Company = () => {
        , [])
     return (
         <div className="flex flex-row gap-28 md:gap-10 lg:gap-28 justify-center md:mx-12 lg:mx-0 mt-28 md:mt-6 lg:mt-0" data-aos="fade-up">
-            {/* company img */}
+            {/* company images */}
           <div className="flex flex-col  md:flex-row md:items-center md:justify-center space-y-10 md:gap-10 lg:gap-28 md:space-y-0">
           <div><img src={img1} className="w-24 h-24" alt="azure"></img></div>
            <div><img src={img2} className="w-24 h-24" alt="github"></img></div>
